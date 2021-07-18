@@ -27,6 +27,7 @@
   </head>
 
   <body>
+    <!-- Nav Bar Section -->
     <header>
       <nav
         class="navbar navbar-expand-lg navbar-light  py-3 fixed-top bg" >
@@ -41,7 +42,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-            <i class="fa fa-bars text-light" aria-hidden="true"></i>
+              <i class="fa fa-bars text-light" aria-hidden="true"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,11 +66,12 @@
                   <a class="nav-link ml-5" href="#contact"> Contact</a>
                 </li>
               </ul>
-            </div>
-        
+            </div> 
+        </div> 
       </nav>
     </header>
 
+    <!-- Home Section -->
     <section id="home">
       <video controls="" autoplay="" muted="" loop="">
         <source src="images/bg.mp4" type="video/mp4" />
@@ -81,15 +83,15 @@
             <h1>Experience Nepal</h1>
             <p>Explore the great Himalaya Trails</p>
             <ul class="section-btn">
-					<a href='#'><span data-hover="Explore">Explore </span> </a> 
-        </ul>
+					      <a href='#'><span data-hover="Explore">Explore </span> </a> 
+             </ul>
           </div>
         </div>
       </div>
-
       <div class="overlay"></div>
     </section>
 
+    <!-- About Section -->
     <section id="about">
       <div class="container py-5">
         <div class="row py-5 my-5">
@@ -105,6 +107,7 @@
       </div>
     </section>
 
+    <!-- Explore Section -->
     <section id="explore" class="pb-5">
       <div class="container">
         <div class="row">
@@ -189,113 +192,104 @@
       </div>
     </section>
 
+    <!-- Event Section -->
     <section id="events" class="h-100">
+        <div class="container py-5">
+          <div class="row">
+            <h1 class="text-center">Annual Events</h1>
+
+            <!-- Swiper -->
+            <div class="swiper-container mySwiper py-5">
+                <div class="swiper-wrapper">
+                      <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="images/c1.jpg" alt="img-fluid">
+                        <div class="Text pt-3">
+                          <h4>DHAULAGIRI GOLDEN JUNILEE CELEBRATION - 13th June <br><span>Jun 13, 2011</span> </h3>
+                        </div>
+                      </div>
+                      <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="images/c2.jpg" alt="img-fluid">
+                        <div class="Text pt-3">
+                          <h4>ENVIRONMENT DAY - 5th June<br><span>Jun 05, 2011</span> </h3>
+                        </div>
+                      </div>
+                      <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="images/c3.jpg" alt="img-fluid">
+                        <div class="Text pt-3">
+                          <h4>ANNAPURNA DAY - 23rd May<br><span>May 23, 2011</span> </h3>
+                        </div>
+                      </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>     
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="h-100 py-5">
+      <h1 class="text-center py-5">Contact Us</h1>
+      <div class="col-lg-7 col-md-10 col-11 mx-auto pb-5">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+          <div class="form-group">
+              <textarea class="form-control"  rows="10" placeholder="Message"></textarea>
+          </div>
+        </form>
+        <ul class="section-btn text-center">
+          <a href='#'><span data-hover="Send">Send Message</span> </a> 
+        </ul>
+      </div>    
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="py-5">
       <div class="container py-5">
         <div class="row">
-          <h1 class="text-center">Annual Events</h1>
-
-          <!-- Swiper -->
-    <div class="swiper-container mySwiper py-5">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide col-lg-3 col-md-6 col-12">
-          <img src="images/c1.jpg" alt="img-fluid">
-          <div class="Text pt-3">
-            <h4>DHAULAGIRI GOLDEN JUNILEE CELEBRATION - 13th June <br><span>Jun 13, 2011</span> </h3>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide col-lg-3 col-md-6 col-12">
-          <img src="images/c2.jpg" alt="img-fluid">
-          <div class="Text pt-3">
-            <h4>ENVIRONMENT DAY - 5th June<br><span>Jun 05, 2011</span> </h3>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide col-lg-3 col-md-6 col-12">
-          <img src="images/c3.jpg" alt="img-fluid">
-          <div class="Text pt-3">
-            <h4>ANNAPURNA DAY - 23rd May<br><span>May 23, 2011</span> </h3>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      
-    </div>
-         
-          </div>
-        </div>
-    </section>
-  </section>
-
-  <section id="contact" class="h-100 py-5">
-    <h1 class="text-center py-5">Contact Us</h1>
-    <div class="col-lg-7 col-md-10 col-11 mx-auto pb-5">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="Name">
-          </div>
-          <div class="form-group col-md-6">
-            <input type="email" class="form-control" placeholder="Email">
-          </div>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Subject">
-        </div>
-        <div class="form-group">
-        <textarea class="form-control"  rows="10" placeholder="Message"></textarea>
-        </div>
-      </form>
-
-      <ul class="section-btn text-center">
-        <a href='#'><span data-hover="Send">Send Message</span> </a> 
-      </ul>
-    </div>
-    
-  </section>
-
-  <footer class="py-5">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-5 col-sm-6">
-          <h2> Travel Nepal</h2>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae beatae nostrum voluptates nesciunt, dolores itaque at magnam.</p>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="footer-info">
-          <h2> Keep in Touch</h2>
-          <p><a href=""> 001-100-1010</a></p>
-          <p><a href="">info@company.com</a></p>
-          <p><a href="">Our Location</a></p>
+              <div class="col-md-5 col-sm-6">
+                 <h2> Travel Nepal</h2>
+                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae beatae nostrum voluptates nesciunt, dolores itaque at magnam.</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="footer-info">
+                  <h2> Keep in Touch</h2>
+                  <p><a href=""> 001-100-1010</a></p>
+                  <p><a href="">info@company.com</a></p>
+                  <p><a href="">Our Location</a></p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                  <h2> About Us</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut culpa nihil natus in asperiores.</p>
+                 <ul class="social-icon d-flex">
+                  </li> <a href="https://www.facebook.com/"> <i class="fa fa-facebook text-dark"></i> </a>
+                  </li> <a href="https://twitter.com/"> <i class="fa fa-twitter text-dark px-1"></i> </a>
+                  </li> <a href="https://www.instagram.com/"> <i class="fa fa-instagram text-dark px-1"></i> </a>
+                  </li> <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin text-dark px-1"></i> </a>
+                  </li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube text-dark px-1"></i> </a>
+                 </ul>
+              </div>
+              <div class="col-md-12 col-12" >
+                <div class="copyright-text">
+                  <p> © 2021. Nepal Tourism Board. All rights reserved. </p>
+                </div>
+              </div>
         </div>
       </div>
-        <div class="col-md-3 col-sm-12">
-          <h2> About Us</h2>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut culpa nihil natus in asperiores.</p>
-         <ul class="social-icon d-flex">
-           </li> <a href="https://www.facebook.com/"> <i class="fa fa-facebook text-dark"></i> </a>
-           </li> <a href="https://twitter.com/"> <i class="fa fa-twitter text-dark px-1"></i> </a>
-           </li> <a href="https://www.instagram.com/"> <i class="fa fa-instagram text-dark px-1"></i> </a>
-           </li> <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin text-dark px-1"></i> </a>
-           </li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube text-dark px-1"></i> </a>
-         </ul>
-        </div>
-        <div class="col-md-12 col-12" >
-          <div class="copyright-text">
-            <p> © 2021. Nepal Tourism Board. All rights reserved. </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </footer>
 
-  </footer>
-    <!-- <section id="about"> -->
-
-    <!-- </section> -->
-
+    <!-- Some JS Section -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -319,28 +313,27 @@
       })
     </script>
 
-
-<script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 1,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 1,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
   </body>
 </html>
